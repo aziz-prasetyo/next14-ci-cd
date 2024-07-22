@@ -10,7 +10,7 @@ export default {
         'header-case-title-case': ({ raw }) => {
           return [
             /^[A-Z]/.test(raw),
-            'Pesan komit harus ditulis dengan kaidah penulisan judul.',
+            '📄 Pesan komit harus ditulis dengan kaidah penulisan judul.',
           ];
         },
       },
